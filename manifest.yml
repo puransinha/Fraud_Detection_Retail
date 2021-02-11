@@ -1,0 +1,10 @@
+
+---
+applications:
+- name: FraudTransactionsDetection
+  memory: 512MB
+  disk_quota: 512MB
+  random-route: true
+  parameters:
+    memory: 512MB
+    buildpack: 'python_buildpack'

@@ -1,0 +1,29 @@
+{
+	"SampleFileName_Main" : "Fraud_Data_07122020_120000.csv",
+	"SampleFileName_Additional" : "IPAddress_To_Country_07122020_120000.csv",
+	"Main_LengthOfDateStampInFile" : 8,
+	"Additional_LengthOfDateStampInFile" : 8,
+	"Main_LengthOfTimeStampInFile" : 6,
+	"Additional_LengthOfTimeStampInFile" : 6,
+	"NumberOfColumns_MainFile" : 10,
+	"NumberOfColumns_AdditionalFile" : 3,
+	"MainFile_ColName" : {
+			"user_id" : "int64",
+			"signup_time" : "varchar",
+			"purchase_time" : "varchar",
+			"purchase_value" : "int64",
+			"device_id" : "varchar",
+			"source" : "varchar",
+			"browser" : "varchar",
+			"sex" : "varchar",
+			"age" : "int64",
+			"ip_address" : "float64"			
+		 },
+
+	"AdditionalFile_ColName" : {
+			"lower_bound_ip_address" : "int64",
+			"upper_bound_ip_address" : "int64",
+			"country" : "varchar"
+		} 
+	
+}

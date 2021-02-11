@@ -1,0 +1,25 @@
+2021-02-11/22:23:56		Start of Prediction
+2021-02-11/22:23:56		Entered the get_data Method of Data_Getter Class
+2021-02-11/22:23:56		Data Load Successfully
+2021-02-11/22:23:56		Entered the IsNull Present method of Data Proprocessing 
+2021-02-11/22:23:56		Entered to Map Ip Address to Corresponding Country
+2021-02-11/22:23:57		Mapping of IP Address to Corresponding Country Successfull in 0:00:00.000190
+2021-02-11/22:23:57		Entered to Finding Difference time between SignUp Time and Purchase Time
+2021-02-11/22:23:57		Finding Difference between Signup and Purchase Time Completed Successfully !!
+2021-02-11/22:23:57		Entered to perform One-Hot Encoding on Browser Feature
+2021-02-11/22:23:57		One-Hot Encoding of Browser Feature Successfully Completed
+2021-02-11/22:23:57		Entered to perform One-Hot Encoding on Source Feature
+2021-02-11/22:23:57		One-Hot Encoding of Source Feature Successfully Completed
+2021-02-11/22:23:57		Entered to perform One-Hot Encoding on Sex Feature
+2021-02-11/22:23:57		One-Hot Encoding of Sex Feature Successfully Completed
+2021-02-11/22:23:57		Count Frequency Encoding of Country Feature Started
+2021-02-11/22:23:57		Count Frequency Encoding of Country Feature Successfully Completed
+2021-02-11/22:23:57		Removing Unwanted Columns Started !!
+2021-02-11/22:23:57		Unwanted Columns Deleted Successfully !!
+2021-02-11/22:23:57		Entered the find_correct_model_file method of the File_Operation class
+2021-02-11/22:23:57		Exited the find_correct_model_file method of FileMethods Package
+2021-02-11/22:23:57		Entered the load_model method of File Operation Class
+2021-02-11/22:23:57		Model FileXGBoostLoaded Successfully
+2021-02-11/22:23:57		Error Occured while doing the Prediction !! Error :: DataFrame.dtypes for data must be int, float, bool or categorical.  When
+                categorical type is supplied, DMatrix parameter
+                `enable_categorical` must be set to `True`.purchase_value, age
